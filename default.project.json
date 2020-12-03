@@ -1,0 +1,70 @@
+{
+  "name": "doggoprivclass",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Outlines": false,
+        "Technology": "Voxel",
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "GlobalShadows": true,
+        "Brightness": 2.0
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ServerScripts": {
+        "$path": "ServerScriptService"
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "GuiScripts": {
+        "$path": "StarterGui"
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Size": [
+            512.0,
+            20.0,
+            512.0
+          ],
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Position": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "Locked": true
+        }
+      }
+    }
+  }
+}
